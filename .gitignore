@@ -1,0 +1,27 @@
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environment
+venv/
+.venv/
+ls -la
+# Secrets and environment variables
+.env
+.env.*
+
+# Allow an example environment template
+!.env.example
+
+# Django generated files
+db.sqlite3
+staticfiles/
+media/
+
+# IDE and operating system
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
